@@ -61,7 +61,14 @@
       <!-- Section hero -->
       <section class="hero">
         <h1 class="title-hero">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <button class="button-hero" type="button">Заказать услугу</button>
+        <button class="button-hero" type="button" data-modal-open>
+          Заказать услугу
+        </button>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button class="button-close" data-modal-close></button>
+          </div>
+        </div>
       </section>
 
       <!-- Section advantages -->
@@ -135,31 +142,46 @@
           <h2 class="title-large">Чем мы занимаемся</h2>
           <ul class="list-presentation">
             <li class="paragraph-presentation">
-              <img
-                class="img-presentation"
-                src="./images/studio/presentation/img-1.jpg"
-                alt="программист-работающий"
-                width="370"
-                height="294"
-              />
+              <div class="thumb-presentation">
+                <img
+                  class="img-presentation"
+                  src="./images/studio/presentation/img-1.jpg"
+                  alt="программист-работающий"
+                  width="370"
+                  height="294"
+                />
+                <div class="box-presentation">
+                  <h3 class="title-box-presentation">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</h3>
+                </div>
+              </div>
             </li>
             <li class="paragraph-presentation">
-              <img
-                class="img-presentation"
-                src="./images/studio/presentation/img-2.jpg"
-                alt="дизайнеры-разрабатывают-приложение-смартфона"
-                width="370"
-                height="294"
-              />
+              <div class="thumb-presentation">
+                <img
+                  class="img-presentation"
+                  src="./images/studio/presentation/img-2.jpg"
+                  alt="дизайнеры-разрабатывают-приложение-смартфона"
+                  width="370"
+                  height="294"
+                />
+                <div class="box-presentation">
+                  <h3 class="title-box-presentation">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</h3>
+                </div>
+              </div>
             </li>
             <li class="paragraph-presentation">
-              <img
-                class="img-presentation"
-                src="./images/studio/presentation/img-3.jpg"
-                alt="креативный-художник-выбирает-цвет-графического-планшета"
-                width="370"
-                height="294"
-              />
+              <div class="thumb-presentation">
+                <img
+                  class="img-presentation"
+                  src="./images/studio/presentation/img-3.jpg"
+                  alt="креативный-художник-выбирает-цвет-графического-планшета"
+                  width="370"
+                  height="294"
+                />
+                <div class="box-presentation">
+                  <h3 class="title-box-presentation">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</h3>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -606,5 +628,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
