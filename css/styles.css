@@ -94,7 +94,7 @@ img {
 .link-navigator:hover,
 .link-navigator:focus,
 .link-navigator:active {
-  color: var(--active-button-color); 
+  color: var(--active-button-color);
 }
 .contacts {
   display: flex;
@@ -460,7 +460,7 @@ img {
 .customers-client:hover,
 .customers-client:focus {
   border-color: #2196f3;
-  fill: #2196f3; 
+  fill: #2196f3;
 }
 .client {
   width: 106px;
@@ -489,7 +489,7 @@ img {
 .button-portfolio:focus {
   background-color: var(--active-button-color);
   color: var(--background-header-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .list-button,
 .list-portfolio {
@@ -508,7 +508,6 @@ img {
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 .card-portfolio:hover,
 .card-portfolio:focus {
@@ -568,7 +567,7 @@ img {
   opacity: 0;
   transition-property: opacity, transform;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-box-portfolio {
   font-weight: 400;
@@ -632,7 +631,7 @@ img {
 }
 .address .link:hover,
 .address .link:focus {
-  color: var(--background-header-color); 
+  color: var(--background-header-color);
 }
 
 .footer-messengers {
@@ -672,7 +671,7 @@ img {
 .link-messengers:hover,
 .link-messengers:focus {
   background-color: #2196f3;
-  fill: #ffffff; 
+  fill: #ffffff;
 }
 .icon {
   width: 20px;
